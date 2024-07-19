@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>To-do</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Daily Plan 📋<h1>
+      <div class="toggle-switch">
+        <label class="switch-label">
+          <input type="checkbox" class="checkbox">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+    <main>
+      <div class="input-container">
+        <input type="text" id="habit-input" class="input" placeholder="Masukkan plan">
+        <button id="add-habit" class="add-button">Add</button>
+      </div>
+      <ul id="habit-list" class="task-list">
+        <!-- Habit items -->
+      </ul>
+      <div id="quote-container">
+        <p id="quote-text"></p>
+        <p id="quote-author"></p>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
